@@ -1,0 +1,10 @@
+You are creating a basic online quiz application. Users can select answers to multiple-choice questions, submit their answers, and see their score. Implement this using JavaScript and DOM manipulation.
+
+*Project Question:*
+Build a simple online quiz application with the following features:
+1. Create a set of multiple-choice questions with at least five questions.
+2. Display one question at a time to the user, along with multiple-choice options.
+3. Users can select one option as their answer for each question.
+4. Provide a "Next" button to move to the next question after selecting an answer.
+5. After answering all questions, calculate and display the user's score (the number of correct answers out of total questions).
+6. Allow users to retake the quiz or start over.
