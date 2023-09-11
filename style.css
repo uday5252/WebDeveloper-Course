@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container{
+    width: 370px;
+    height: 500px;
+    background-color: #33394f;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    height: 60%;
+    border-radius: 5%;
+}
+
+h3,h4{
+    text-align: center;
+    margin: 15px;
+    color: wheat;
+}
+
+h3{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+h4{
+    font-weight: 100;
+}
+
+.parentProgressBar{
+    margin-top: 20px;
+    border: 2px solid whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+}
+
+.childProgressBar{
+    border: 2px solid goldenrod;
+    width: 0%;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    margin-top: 5px;
+    color: wheat;
+    font-size: 13px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons > i{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.icons > i:nth-child(3){
+    border: 1px solid whitesmoke;
+    padding: 13px;
+    border-radius: 50%;
+}
